@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZCITC_CIT_STUD_039039'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZCITC_CIT_STUD_039039'
+  }
+}
+define service ZCITUI_CIT_STUD_039_O4039 provider contracts odata_v4_ui {
+  expose ZCITC_CIT_STUD_039039;
+}
